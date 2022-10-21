@@ -18,6 +18,7 @@ const countryList = [
 
 const divElement = document.getElementById("suggestions");
 let countryElement = document.createElement("ul");  // Will use this to insert into the UL
+countryElement.id = "ulCountry";
 const inpElement = document.getElementById("country");
 
 
@@ -52,3 +53,5 @@ function filterData(data, searchText) { // we will insert countryList in the dat
     return data.filter((x) => x.toLowerCase().includes(searchText.toLowerCase()));
 }
 
+const bod = document.querySelector("body");
+console.log(bod);

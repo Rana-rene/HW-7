@@ -16,3 +16,23 @@
     border: 1px solid black;
     left: 155px;
 }
+
+#ulCountry {
+    top: 70px;
+    left: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#ulCountry li {
+    color: #48438f;
+    padding: 15px;
+    width: calc(100% - 30px);
+    font-weight: bold;
+    cursor: pointer;
+
+}
